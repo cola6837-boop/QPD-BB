@@ -27,9 +27,9 @@ jobs:
           if [ -f settings.gradle ]; then
             PROJECT_DIR="$PWD"
           else
-            ZIP=$(find . -maxdepth 1 -type f -iname 'Elantra_Premium_V2_Android.zip' -print -quit)
+            ZIP=$(find . -maxdepth 1 -type f -iname 'Elantra_Premium_V2_Android_CORREGIDO.zip' -print -quit)
             if [ -z "$ZIP" ]; then
-              echo 'No se encuentra Elantra_Premium_V2_Android.zip en la raiz'
+              echo 'No se encuentra Elantra_Premium_V2_Android_CORREGIDO.zip en la raiz'
               exit 1
             fi
             mkdir -p extracted
